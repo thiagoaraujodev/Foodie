@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Foodie é uma assinatura de alimentos com inteligência artificial que fará você comer saudável durante 365 dias por ano. É adaptado aos seus gostos pessoais e necessidades nutricionais.">
+  <title>Foodie &mdash; Refeições Saudáveis</title>
+
+  <link rel="icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/queries.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#"><img src="img/logo.png" alt="Foodie Logo" class="logo" /></a>
+
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li>
+          <a href="#funcionamento" class="main-nav-link">Funcionamento</a>
+        </li>
+        <li>
+          <a href="#receitas" class="main-nav-link">Receitas</a>
+        </li>
+        <li>
+          <a href="#depoimentos" class="main-nav-link">Depoimentos</a>
+        </li>
+        <li>
+          <a href="#preco" class="main-nav-link">Preços</a>
+        </li>
+        <li>
+          <a href="#experimente-gratis" class="main-nav-link nav-cta">Experimente Grátis</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+
+  <main>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
+            Refeições saudáveis todos os dias em sua porta...
+          </h1>
+
+          <p class="hero-description">
+            Uma assinatura inteligente que vai fazer você comer 365 dias por ano, em alimentos saudáveis. Adaptado aos
+            seus gostos pessoais e necessidades nutricionais.
+          </p>
+
+          <a href="#experimente-gratis" class="btn btn--full margin-right-sm">Começe agora</a>
+          <a href="#funcionamento" class="btn btn--outline">Saiba mais &darr;</a>
+
+          <div class="delivered-meals">
+            <div class="delivered-imgs">
+              <img src="img/customers/customer-1.jpg" alt="Foto do Cliente" />
+              <img src="img/customers/customer-2.jpg" alt="Foto do Cliente" />
+              <img src="img/customers/customer-3.jpg" alt="Foto do Cliente" />
+              <img src="img/customers/customer-4.jpg" alt="Foto do Cliente" />
+              <img src="img/customers/customer-5.jpg" alt="Foto do Cliente" />
+              <img src="img/customers/customer-6.jpg" alt="Foto do Cliente" />
+            </div>
+            <p class="delivered-text">
+              <span>mais de 250.000+</span> refeições entregues no ano passado!
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-img-box">
+          <picture>
+            <source srcset="img/hero.webp" type="image/webp" />
+            <source srcset="img/hero-min.png" type="image/png" />
+            <img src="img/hero-min.png"
+              alt="Mulher desfrutando de comida, refeições em recipiente de armazenamento e tigelas de comida em uma mesa."
+              class="hero-img" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-featured">
+      <div class="container">
+        <h2 class="heading-featured-in">DESTAQUE EM</h2>
+        <div class="logos">
+          <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
+          <img src="img/logos/business-insider.png" alt="Business Insider logo" />
+          <img src="img/logos/the-new-york-times.png" alt="The New York Times logo" />
+          <img src="img/logos/forbes.png" alt="Forbes logo" />
+          <img src="img/logos/usa-today.png" alt="Usa Today logo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="funcionamento" class="section-how">
+      <div class="container">
+        <span class="subheading">COMO FUNCIONA</span>
+
+        <h2 class="heading-secondary">
+          Você receberá uma dose diária de saúde em apenas 3 passos simples
+        </h2>
+      </div>
+
+      <div class="container grid grid--2-cols grid--center-v">
+
+        <div class="step-text-box">
+          <p class="step-number">01</p>
+
+          <h3 class="heading-tertiary">
+            Diga-nos o que você gosta e o que não gosta
+          </h3>
+
+          <p class="step-description">
+            Nunca mais perca tempo pensando no que comer! A Foodie criará um plano de refeição semanal 100%
+            personalizado apenas para você. Garantimos que você obtenha todos os nutrientes e vitaminas ideais para seu
+            corpo, não importa qual dieta você siga!
+          </p>
+        </div>
+
+        <div class="step-img-box">
+          <img src="img/app/app-screen-1.png" alt="tela de seleção de preferências do aplicativo." class="step-img" />
+        </div>
+
+        <div class="step-img-box">
+          <img src="img/app/app-screen-2.png" alt="Tela de plano de aprovação de refeição do aplicativo."
+            class="step-img" />
+        </div>
+
+        <div class="step-text-box">
+          <p class="step-number">02</p>
+
+          <h3 class="heading-tertiary">Aprove seu plano de refeição semanal</h3>
+
+          <p class="step-description">
+            Uma vez por semana, aprove o plano de refeição gerado para você pela Foodie. Você pode trocar ingredientes,
+            trocar refeições inteiras ou até mesmo adicionar suas próprias receitas.
+          </p>
+        </div>
+
+        <div class="step-text-box">
+          <p class="step-number">03</p>
+
+          <h3 class="heading-tertiary">Receba refeições no momento conveniente</h3>
+
+          <p class="step-description">
+            Os melhores chefs da cidade cozinharão sua refeição selecionada todos os dias, e entregaremos da melhor
+            forma para que obtenha uma sensação única. Você pode alterar o horário de entrega e o endereço diariamente!
+          </p>
+        </div>
+
+        <div class="step-img-box">
+          <img src="img/app/app-screen-3.png" alt="tela de seleção de preferências do aplicativo." class="step-img" />
+        </div>
+      </div>
+    </section>
+
+    <section id="receitas" class="section-meals">
+      <div class="container center-text">
+        <span class="subheading">REFEIÇÔES</span>
+
+        <h2 class="heading-secondary">
+          Escolha entre mais de 5.000+ receitas disponíveis na Foodie
+        </h2>
+      </div>
+
+      <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="meal">
+          <img class="meal-img" src="img/meals/meal-1.jpg" alt="Gyozas Japonesas" />
+
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">VEGETARIANO</span>
+            </div>
+
+            <p class="meal-titles">Gyozas Japonesas</p>
+
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon name="flame-outline" class="meal-icon md hydrated"></ion-icon>
+                <span><strong>650</strong> calorias</span>
+              </li>
+
+              <li class="meal-attribute">
+                <ion-icon name="restaurant-outline" class="meal-icon md hydrated"></ion-icon>
+                <span>Nutrientes &#174; <strong>74</strong></span>
+              </li>
+
+              <li class="meal-attribute">
+                <ion-icon name="star-outline" class="meal-icon md hydrated"></ion-icon>
+                <span>Classificação <strong>4.9</strong> (537)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img class="meal-img" src="img/meals/meal-2.jpg" alt="Salada de Abacate" />
+
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegan">VEGANO</span>
+              <span class=" tag tag--paleo">Paleo</span>
+            </div>
+
+            <p class="meal-titles">Salada de Abacate</p>
+
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon name="flame-outline" class="meal-icon md hydrated"></ion-icon>
+                <span><strong>400</strong> calorias</span>
+              </li>
+
+              <li class="meal-attribute">
+                <ion-icon name="restaurant-outline" class="meal-icon md hydrated"></ion-icon>
+                <span>Nutrientes &#174; <strong>92</strong></span>
+              </li>
+
+              <li class="meal-attribute">
+                <ion-icon name="star-outline" class="meal-icon md hydrated"></ion-icon>
+                <span>Classificação <strong>4.8</strong> (441)
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="diets">
+          <h3 class="heading-tertiary">Funciona com qualquer dieta:</h3>
+
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon name="checkmark-outline" class="list-icon md hydrated"></ion-icon>
+              <span>Vegano</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon name="checkmark-outline" class="list-icon md hydrated"></ion-icon>
+              <span>Vegetariano</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon name="checkmark-outline" class="list-icon md hydrated"></ion-icon>
+              <span>Pesco-vegetariano</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon name="checkmark-outline" class="list-icon md hydrated"></ion-icon>
+              <span>Sem glúten</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon name="checkmark-outline" class="list-icon md hydrated"></ion-icon>
+              <span>Livre de lactose</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon name="checkmark-outline" class="list-icon md hydrated"></ion-icon>
+              <span>Onivoro</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon name="checkmark-outline" class="list-icon md hydrated"></ion-icon>
+              <span>Paleo</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon name="checkmark-outline" class="list-icon md hydrated"></ion-icon>
+              <span>Baixo carboidrato</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon name="checkmark-outline" class="list-icon md hydrated"></ion-icon>
+              <span>Para crianças</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container all-recipes">
+        <a class="link" href="#">Veja todas as receitas &rarr;</a>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="section-testimonials">
+      <div class="testimonials-container">
+        <span class="subheading">DEPOIMENTOS</span>
+
+        <h2 class="heading-secondary">Depois de experimentar, você não vai nos abandonar</h2>
+
+        <div class="testimonials">
+          <figure class="testimonial">
+            <img src="img/customers/david.jpg" alt="Foto do cliente David Borba" class="testimonial-img">
+
+            <blockquote class="testimonial-text">Refeições baratas, saudáveis e de grande sabor, sem sequer ter que
+              pedir manualmente! Parece realmente mágico.</blockquote>
+
+            <p class="testimonial-name">— David Borba</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img src="img/customers/bruno.jpg" alt="Foto do cliente Bruno Hadley" class="testimonial-img">
+
+            <blockquote class="testimonial-text">O algoritmo da Foodie é muito bom, ele escolhe as refeições certas para
+              mim todas as vezes. É incrível não se preocupar mais com comida!</blockquote>
+
+            <p class="testimonial-name">— Bruno Hadley</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img src="img/customers/steven.jpg" alt="Foto do cliente Steven Lacerda" class="testimonial-img">
+
+            <blockquote class="testimonial-text">Foodie é um salva-vidas! Acabei de começar uma empresa, então não tenho
+              tempo para cozinhar. Eu não poderia viver sem minhas refeições diárias!</blockquote>
+
+            <p class="testimonial-name">— Steven Lacerda</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img src="img/customers/camila.jpg" alt="Foto do cliente Camila Braga" class="testimonial-img">
+
+            <blockquote class="testimonial-text">Eu tenho Foodie para toda a família, e isto otimiza tanto o meu tempo!
+              Além disso, tudo é orgânico e vegano e sem plástico. Ameiii!!! </blockquote>
+
+            <p class="testimonial-name">— Camila Braga</p>
+          </figure>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-1.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-2.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-3.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-4.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-5.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-6.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-7.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-8.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-9.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-10.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-11.jpg" alt="Foto de uma bela comida">
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/gallery/gallery-12.jpg" alt="Foto de uma bela comida">
+        </figure>
+      </div>
+    </section>
+
+    <section id="preco" class="section-pricing">
+      <div class="container">
+        <span class="subheading">Preços</span>
+        <h2 class="heading-secondary">
+          Comendo bem sem preocupação com o bolso
+        </h2>
+      </div>
+
+      <div class="container grid grid--2-cols margin-bottom-md">
+        <div class="pricing-plan pricing-plan--starter">
+          <header class="plan-header">
+            <p class="plan-name">Starter</p>
+            <p class="plan-price"><span>R$</span>660</p>
+            <p class="plan-text">por mês. São apenas 22 reais por refeição!</p>
+          </header>
+
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>1 refeição por dia</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Encomenda das 11h às 21h</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>A entrega é gratuita</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              <span>Tenha acesso às receitas mais recentes</span>
+            </li>
+          </ul>
+
+          <div class="plan-sign-up">
+            <a href="#experimente-gratis" class="btn btn--full">Solicitar agora</a>
+          </div>
+        </div>
+
+        <div class="pricing-plan pricing-plan--complete">
+          <header class="plan-header">
+            <p class="plan-name">Full</p>
+            <p class="plan-price"><span>R$</span>960</p>
+            <p class="plan-text">por mês. São apenas 16 reais por refeição!</p>
+          </header>
+
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span><strong>2 refeições</strong> por dia</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Pedidos <strong>24/7</strong></span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>A entrega é gratuita</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Tenha acesso às receitas mais recentes</span>
+            </li>
+          </ul>
+          <div class="plan-sign-up">
+            <a href="#experimente-gratis" class="btn btn--full">Solicitar Agora</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container grid">
+        <aside class="plan-details">
+          Os preços incluem todos os impostos aplicáveis. Você pode cancelar a qualquer momento. Ambos os planos incluem
+          o seguinte:
+        </aside>
+      </div>
+
+      <div class="container grid grid--4-cols">
+        <div class="feature">
+          <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+          <p class="feature-title">Nunca mais cozinhe!</p>
+          <p class="feature-text">
+            Nossas assinaturas cobrem 365 dias por ano, inclusive feriados importantes.
+          </p>
+        </div>
+
+        <div class="feature">
+          <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+          <p class="feature-title">Local e orgânico</p>
+          <p class="feature-text">
+            Nossos cozinheiros só usam produtos locais, frescos e orgânicos para preparar suas refeições.
+          </p>
+        </div>
+
+        <div class="feature">
+          <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+          <p class="feature-title">Sem desperdícios</p>
+          <p class="feature-text">
+            Todos os nossos parceiros só usam recipientes reutilizáveis para embalar todas as suas refeições.
+          </p>
+        </div>
+
+        <div class="feature">
+          <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+          <p class="feature-title">Pausa a qualquer hora</p>
+          <p class="feature-text">
+            Saindo de férias? Basta pausar sua assinatura, e nós reembolsamos os dias não utilizados.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experimente-gratis" class="section-cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Pegue sua primeira refeição de graça!</h2>
+
+            <p class="cta-text">Refeições saudáveis e saborosas estão esperando por você. Comece a comer bem hoje. Você
+              pode cancelar ou fazer uma pausa a qualquer momento. E a primeira refeição é por nossa conta!</p>
+
+            <form action="#" class="cta-form">
+              <div>
+                <label for="full-name">Nome completo</label>
+                <input type="text" id="full-name" placeholder="Seu Nome" required="">
+              </div>
+
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email@example.com" required="">
+              </div>
+
+              <div>
+                <label for="select-where">Como você nos encontrou?</label>
+                <select id="select-where" required="">
+                  <option value="" selected="true" disabled="disabled">Por favor, escolha uma opção:</option>
+                  <option value="friends">Amigos e Família</option>
+                  <option value="google">Google</option>
+                  <option value="youtube">YouTube</option>
+                  <option value="ad">Anúncios no Facebook/Instagram</option>
+                  <option value="others">Outros</option>
+                </select>
+              </div>
+
+              <button class="btn btn--form">Inscreva-se agora!</button>
+            </form>
+          </div>
+          <div class="cta-img-box" role="img" aria-label="Mulher desfrutando de comida"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container grid grid--footer">
+      <div class="logo-col">
+        <a href="#" class="footer-logo">
+          <img src="img/logo.png" alt="Foodie logo" class="logo">
+        </a>
+
+        <ul class="social-links">
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="logo-instagram" class="social-icon md hydrated"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="logo-facebook" class="social-icon md hydrated"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="logo-twitter" class="social-icon md hydrated"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <p class="copyright">Copyright &#169; <span class="year">2022</span> Foodie, Inc. Todos os direitos reservados
+        </p>
+      </div>
+      <div class="address-col">
+        <p class="footer-heading">Entre em contato conosco</p>
+
+        <address class="contacts">
+          <p class="address">Av dos Bandeirantes, 623 - Recife - PE</p>
+          <p>
+            <a href="tel:81 0000-0000" class="footer-link">81 0000-0000</a>
+            <a href="mailto:atendimento@foodie.com" class="footer-link">atendimento@foodie.com</a>
+          </p>
+        </address>
+      </div>
+
+      <div class="nav-col">
+        <p class="footer-heading">Conta</p>
+        <ul class="footer-nav">
+          <li>
+            <a href="#" class="footer-link">Criar Conta</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Entrar</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">App iOS</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">App Android</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-col">
+        <p class="footer-heading">Empresa</p>
+        <ul class="footer-nav">
+          <li>
+            <a href="#" class="footer-link">Sobre Foodie</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Negócios</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Parceiros</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Carreiras</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-col">
+        <p class="footer-heading">Recursos</p>
+        <ul class="footer-nav">
+          <li>
+            <a href="#" class="footer-link">Receitas</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Ajuda</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Termos e Privacidade</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
